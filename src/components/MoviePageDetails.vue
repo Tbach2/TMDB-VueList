@@ -10,7 +10,7 @@
     <v-card-subtitle class="detailsDate">{{ item.release_date }}</v-card-subtitle>
     <v-divider/>
     <v-card-text class="detailsOverview">{{item.overview}}</v-card-text>
-    <v-card-text class="detailsSeasonsAndEpisodes">Runtime: {{item.runtime}}</v-card-text>
+    <v-card-text class="detailsSeasonsAndEpisodes">Runtime: {{item.runtime}} Minutes</v-card-text>
   </div>
 </template>
 
